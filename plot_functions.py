@@ -68,14 +68,6 @@ def plot_all_answers(json_file_path):
 # plot_general_results(json_file_path)
 # plot_all_answers(json_file_path)
 
-
-
-
-
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-
 def plot_radial_bar_chart(categories, scores):
     # Set seaborn dark style explicitly
     sns.set(style="darkgrid", rc={"axes.facecolor": "#282828", "grid.color": "#656565", 'text.color': 'white'})
@@ -121,8 +113,8 @@ def plot_radial_bar_chart(categories, scores):
     # Show the radial bar chart
     plt.show()
 
-# Example usage
-categories = ['Work', 'Health', 'Relationships', 'Personal Development', 'Finance', 'Leisure']
-scores = {'Work': 7.5, 'Health': 8.2, 'Relationships': 6.8, 'Personal Development': 9.0, 'Finance': 7.2, 'Leisure': 8.5}
+# # Example usage
+# categories = ['Work', 'Health', 'Relationships', 'Personal Development', 'Finance', 'Leisure']
+# scores = {'Work': 7.5, 'Health': 8.2, 'Relationships': 6.8, 'Personal Development': 9.0, 'Finance': 7.2, 'Leisure': 8.5}
 
-plot_radial_bar_chart(categories, scores)
+# plot_radial_bar_chart(categories, scores)
